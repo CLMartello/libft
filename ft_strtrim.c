@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 19:18:10 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/14 21:56:05 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 16:52:38 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,10 +55,10 @@ char	*ft_strtrim(char const *s1, char const *set)
 /*
 int	main(void)
 {
-	char *s1 = "  \t \t \n   \n\n\n\t";
-	printf("%d", (int)ft_strlen(s1));
-	char *set = " \n\t";
+	char *s1 = "**---*-*-*Hello there!*-*-**";
+	char *set = "-*";
 	char *r = ft_strtrim(s1, set);
-	printf("%s", r);
+	printf("Word %s and set %s\n", s1, set);
+	printf("Trim word %s\n", r);
 	return (0);
 }*/

@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 09:15:45 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/15 18:37:22 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 16:56:14 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,17 +100,15 @@ char	**ft_split(char const *s, char c)
 /*
 int	main(void)
 {
-//	const char *s = "hello!";
-//	char c = ' ';
-	char **res = ft_split("^^^1^^2a,^^^^3^^^^--h^^^^", '^');
+	const char *s = "^^^1^^2a,^^^^3^^^^--h^^^^";
+	char c = '^';
+	char **res = ft_split(s, c);
 	int i = 0;
-	while (i < ft_count_words("^^^1^^2a,^^^^3^^^^--h^^^^", '^'))
+	while (i < ft_count_words(s, c))
 	{
 		ft_putendl_fd(res[i], 1);
 		i++;
 	}
 	ft_free_mem(res, 4);
-//	ft_size_word(s, c);
 	return (0);
-}
-*/
+}*/

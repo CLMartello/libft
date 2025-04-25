@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 22:10:01 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/12 17:57:42 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 15:16:41 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,8 @@ char	*ft_strchr(const char *s, int c)
 int	main(void)
 {
 	char *s = "teste";
-	int c = '\0';
-	printf("%s", ft_strchr(s, c));
+	int c = 's';
+	printf("Mine: %s\n", ft_strchr(s, c));
+	printf("Original: %s\n", strchr(s, c));
 	return (0);
 }*/

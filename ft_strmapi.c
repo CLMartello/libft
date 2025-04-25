@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 13:34:52 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/15 17:26:09 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 17:15:55 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,17 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	result[i] = '\0';
 	return (result);
 }
+/*
+static char	f(unsigned int n, char c)
+{
+	c += n;
+	return (c); 
+}
+
+int	main(void)
+{
+	char const *s = "aaaaaa";
+	printf("Original word: %s\n", s);
+	printf("Modified word: %s\n", ft_strmapi(s, f));
+	return (0);
+}*/

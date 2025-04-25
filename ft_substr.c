@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 19:00:33 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/15 17:44:39 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 16:46:56 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 /*
 int	main(void)
 {
-	char *str = "0124";
-	size_t size = 10;
-	printf("%s", str);
-	char *ret = ft_substr(str, 10, size);
-	printf("%s", ret);
+	char *str = "0123456789";
+	unsigned int start = 2;
+	size_t len = 6;
+	printf("Original str: %s\n", str);
+	char *ret = ft_substr(str, start, len);
+	printf("Modified str: %s\n", ret);
 	return (0);
 }*/

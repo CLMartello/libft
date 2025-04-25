@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 15:20:14 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/12 17:56:02 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 16:25:04 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,14 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+/*
+int	main(void)
+{
+	char *s1 = "carolina";
+	char *s2 = "carolina";
+	int n = 6;
+
+	printf("Mine: %d\n", ft_memcmp(s1, s2, n));
+	printf("Original: %d\n", memcmp(s1, s2, n));
+	return (0);
+}*/

@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 18:52:14 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/18 15:56:59 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 17:58:44 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,13 @@ t_list	*ft_lstnew(void *content)
 	new_node->next = NULL;
 	return (new_node);
 }
+/*
+int	main(void)
+{
+	t_list *n2;
+
+	n2 = ft_lstnew("apple");
+	printf("Content: %s\n", (char *)n2->content);
+	printf("Next: %s\n", (char *)n2->next);
+	return (0);	 
+}*/

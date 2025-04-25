@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 19:46:21 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/12 20:07:18 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 16:49:30 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,3 +40,13 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	result[i + j] = '\0';
 	return (result);
 }
+/*
+int	main(void)
+{
+	char const *s1 = "banana";
+	char const *s2 = "pera";
+
+	printf("Original words %s and %s\n", s1, s2);
+	printf("Joined words %s\n", ft_strjoin(s1, s2));
+	return (0);
+}*/

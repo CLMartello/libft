@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 20:43:23 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/12 17:46:03 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 14:42:48 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,13 +26,14 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
 /*
 int	main(void)
 {
 	char dest[] = "des";
 	char src[] = "source";
+	char dest2[] = "des";
 
-	printf("%s\n", (char *)ft_memcpy(&dest, &src, 10));
+	printf("Mine: %s\n", (char *)ft_memcpy(&dest, &src, 2));
+	printf("Original: %s\n", (char *)memcpy(&dest2, &src, 2));
 	return (0);
 }*/

@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 18:36:42 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/12 18:58:43 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 16:41:55 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,11 @@ char	*ft_strdup(const char *s)
 	dest[i] = '\0';
 	return (dest);
 }
+/*
+int	main(void)
+{
+	char *s = "banana";
+	printf("Mine: %s\n", ft_strdup(s));
+	printf("Original: %s\n", strdup(s));
+	return (0);
+}*/

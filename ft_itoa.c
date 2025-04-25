@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 20:08:26 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/15 16:41:56 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 16:59:22 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,6 @@ char	*ft_itoa(int n)
 /*
 int	main(void)
 {
-	printf("%s\n", ft_itoa(-2147483647));
-//	printf("%d\n", ft_size(-10004));
+	printf("My itoa: %s\n", ft_itoa(-1005));
 	return (0);
 }*/

@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 15:29:29 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/12 16:31:03 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 16:28:52 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,10 +34,9 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	return (0);
 }
 /*
-#include <stdio.h>
-
 int	main(void)
 {
-	printf("%s", ft_strnstr("lorem ipsum dolor sit amet", "lorem", 15));
+	printf("%s", ft_strnstr("lorem ipsum dolor sit amet\n", "do", 15));
+	printf("%s", strnstr("lorem ipsum dolor sit amet\n", "do", 15));
 	return (0);
 }*/

@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 19:37:43 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/18 15:34:38 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 15:04:28 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,22 +33,22 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 		return (j + size);
 	return (i + j);
 }
-
 /*
 int	main(int argc, char *argv[])
 {
 	char	buffer[20] = "carol";
 	char	buffer2[20] = "carol";
+	size_t	n = 10;
 
-	if (argc != 3)
+	if (argc != 2)
 	{
 		return (0);
 	}
-	int n = atoi(argv[2]);
 	int x = ft_strlcat(buffer, argv[1], n);
 	printf("%s\n", buffer);
 	printf("%d\n", x);
 	int y = strlcat(buffer2, argv[1], n);
 	printf("%s\n", buffer2);
 	printf("%d\n", y);
+	return (0);
 }*/

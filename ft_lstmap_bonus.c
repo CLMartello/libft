@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstmap.c                                        :+:      :+:    :+:   */
+/*   ft_lstmap_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/18 17:53:06 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/18 19:07:48 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 21:33:30 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,24 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_lst);
 }
+/*
+static void	*duplicate(void *s)
+{
+	return (ft_strtrim(((char *)s), ((char *)s)));
+}
+
+int	main(void)
+{
+	t_list *n1;
+	t_list *n2;
+	t_list *n3;
+
+	n1 = ft_lstnew("123");
+	n2 = ft_lstnew("-58");
+	n3 = ft_lstnew("grape");
+	n1->next = n2;
+	n2->next = n3;
+	printf("%s\n", (char *)n1->content);
+	printf("%s\n", (char *)ft_lstmap(n1, duplicate, free)->content);
+	return (0);
+}*/

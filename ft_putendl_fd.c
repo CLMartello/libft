@@ -6,7 +6,7 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 14:23:11 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/15 14:25:51 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/04/19 17:42:09 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,20 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
+/*
+#include <fcntl.h>
+
+int     main(void)
+{
+        int fd;
+        char *s1 = "banana";
+	char *s2 = "apple";
+
+        fd = open("testfd.txt", O_WRONLY | O_TRUNC | O_CREAT, 0640);
+        if (fd == -1)
+                return (1);
+        ft_putendl_fd(s1, fd);
+	ft_putendl_fd(s2, fd);
+        close(fd);
+        return (0);
+}*/
