@@ -10,6 +10,7 @@ Libft is a C library create as the first project of 42 school. The functions in 
 
 ## Usage
 1. Clone the repository.
-2. Command "make" to create archive file.
-3. Develop main() and compile using gcc.
-4. Test different functions and compare with original ones.
+2. Command "make" to create static library for mandatory part.
+3. Command "make bonus" to create static library to bonus part.
+4. Develop main() and compile using gcc.
+5. Test different functions and compare with original ones.
